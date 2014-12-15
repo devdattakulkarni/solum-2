@@ -1,0 +1,10 @@
+version: 1
+name: Plan_to_demo_Python_tests
+description: Python web application.
+artifacts:
+- name: nodeus-1
+  artifact_type: heroku
+  unittest_cmd: ./unit_tests.sh
+  content:
+    href: https://github.com/jamesyli/cherrypy-helloworld.git
+  language_pack: auto
